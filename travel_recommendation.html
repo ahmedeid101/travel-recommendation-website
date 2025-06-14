@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="travel_recommendation.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111615.png" alt="Logo" />
+      <span>TravelBloom</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="travel_recommendation.html">Home</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="ContactUs.Html">Contact Us</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Enter a destination or keyword" />
+      <button class="search-btn">🔍 Search</button>
+      <button class="reset-btn">Clear</button>
+    </div>
+  </nav>
+
+<section class="hero-section">
+    <div class="overlay-section" id="hero-content">
+        <div class="overlay">
+            <div class="hero-content">
+                <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+                <p>
+                    It encourages exploration of unfamiliar<br> territories, embracing diverse
+                    cultures and<br> landscapes, while pursuing the desired<br> destination that captivates
+                    the heart and<br> ignites a sense of wonder.
+                </p>
+                <a href="#" class="btn-book">BOOK NOW</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="recommendations-container" id="recommendations-container">
+        <div id="recommendation-results"></div>
+    </div>
+</section>
+
+  <script src="travel_recommendation.js"></script>
+
+</body>
+</html>
