@@ -114,11 +114,16 @@ function displayResults(results) {
 function normalizeKeyword(term) {
     const keywordMap = {
         'beaches': 'beach',
+        'beac': 'beach',
         'sea': 'beach',
         'ocean': 'beach',
         'temples': 'temple',
+        'temp': 'temple',
+        'tem': 'temple',
         'shrine': 'temple',
         'countries': 'country',
+        'country': 'country',
+        'coun': 'country',
         'nation': 'country'
     };
     return keywordMap[term] || term;
